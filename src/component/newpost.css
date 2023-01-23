@@ -1,0 +1,81 @@
+.postform {
+  margin: 0 auto;
+  width: 580px;
+  border-top: 2px solid #dcdcdc;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 25px;
+  background-color: #f8f9fa;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.formheading {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.postinputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+}
+
+.input1 {
+  grid-column: 1/-1;
+}
+
+.input4 {
+  grid-column: -3/-1;
+}
+
+.input input {
+  width: 96%;
+  border: none;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.input2 input {
+  width: 92%;
+}
+
+.input3 input {
+  width: 92%;
+}
+
+.input input:focus {
+  outline: none;
+  border-color: #fb195d;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 12px 24px;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 5px;
+  background-color: #fb195d;
+  color: #fff0f6;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: #e21754;
+}

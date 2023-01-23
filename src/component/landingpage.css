@@ -1,0 +1,48 @@
+.center {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.container1 {
+  width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+.eye-pic {
+  width: 100%;
+  height: 500px;
+  display: grid;
+  justify-content: end;
+}
+.img1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.head {
+  font-size: 36px;
+  color: #187748;
+}
+.text {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.route {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0.5;
+}
+.btn {
+  padding: 8px 22px;
+  border-radius: 10px;
+  background: none;
+  color: #187748;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid #187748;
+  cursor: pointer;
+}
